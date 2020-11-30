@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('fonts/abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'abhaya_libreregular';
+}
+p{
+    margin: 50px 20%;
+}
+
+span{
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+figcaption{
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: 400px;
+    margin-top: -5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+figure{
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    transition: transform 2s;
+    flex: 1;
+}
+
+figure:hover{
+    transform: scale(1.1);
+}
+
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 400px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.unicorn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

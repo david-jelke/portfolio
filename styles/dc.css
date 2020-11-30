@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('fonts/abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* normal selectors, alphabetical */
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7%;
+    z-index: -2;
+}
+
+body{
+    font-size: 10px;
+    font-family: 'abhaya_libreregular';
+}
+
+figcaption{
+    text-align: center;
+    font-size: 1.1rem;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 0 250px;
+}
+
+figure{
+    margin: 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1, h2, h3{
+    font-family: 'source_sans_prosemibold';
+}
+
+h1{
+    font-size: 2rem;
+    display: block;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 1.5rem;
+    padding: 15px 0 0 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgba(128,128,128,2), rgb(255,255,255, 0) );
+    margin: -9px;
+    padding-left: 15px;
+    justify-content: space-around;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 1rem;
+}
+
+p + img{
+    margin-bottom: 50px;
+}
+
+p, ul{
+    font-weight: bold;
+    padding: 0 15%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+p + img{
+    margin-bottom: 100px;
+}
+
+ul{
+    font-size: 1.3rem;
+}
+
+
+/* class selectors, alphabetical */
+
+#about{
+    margin: 60px 10px 40px 40px;
+
+}
+
+.about-text{
+    font-size: 1.3rem;
+}
+
+#goals{
+    margin: 60px 40px 40px 10px;
+}
+
+
+.block{
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 40px;
+    padding-bottom: 30px;
+    flex: 1;
+}
+
+
+#pass{
+    float: left;
+    margin-left: 317px;
+    width: 354px;
+}
+
+#sketch{
+    margin-left: 20px;
+    width: 354px;
+}
+
+#byline{
+    width: 707px;
+}
+
+#feature-photo:hover{
+    filter: hue-rotate(-0.25turn);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.flex-3{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 0px 500px;
+}
+
+.headlines{
+    margin: 0;
+    font-weight: bold;
+    font-family: 'source_sans_prosemibold';
+    
+}
+
+.headlines:hover{
+    text-decoration: underline;
+}
+
+.headline-links{
+    text-decoration: none;
+    color: black;
+}
+
+
+.left-page{
+    background: url('../images/left-arrow.svg') no-repeat 0;
+    background-size: 16px 16px;
+    padding-left: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+
+.left-page:hover {
+    text-decoration: underline;
+}
+
+.right-page{
+    background: url('../images/right-arrow.svg') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+
+.right-page:hover{
+    text-decoration: underline;
+}
+
+
+/* ID selectors */
+#carousel{
+    margin-top: -15px;
+}
+
+#carousel:hover{
+    border: solid purple 2px;
+    padding: 2px;
+}
+
+#hawley{
+    width: 600px;
+}
+
+#lede-bad{
+    max-width: 600px;
+}
+
+#lede-good{
+    display: block;
+    margin-left: auto;
+    max-width: 600px;
+}
+
+#lincoln{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    max-width: 80px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 17px;
+}
+
+#matt{
+    margin-bottom: 0;
+}
+
+#notes-attempt{
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rec-drew{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#redlines{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#reporter-questions{
+    width: 600px;
+}
+
+#quotes{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

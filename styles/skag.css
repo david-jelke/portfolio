@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('fonts/abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* element selectors */
+
+body{
+    background-color:rgba(127, 188, 180, 1);
+    font-family: 'abhaya_libreregular';
+    line-height: 1.5;
+}
+
+figcaption{
+    text-align: center;
+    margin: 0 300px 150px 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    display: flex;
+    position: sticky; 
+    top: 0;
+    margin-bottom: 10px;
+    background: linear-gradient(rgba(127, 188, 180, 1), rgba(255,255,255, 0))
+}
+
+h1{
+    flex: 1;
+}
+
+h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h3{
+    padding: 15px 0 0 20px;
+}
+
+h1, h2, h3{
+    font-family: 'source_sans_prosemibold';
+}
+
+img{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, ul{
+    padding: 0 15%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
+/* Classes */
+#about{
+    flex: 1;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 60px 10px 40px 40px;
+}
+
+.block{
+    border-radius: 10px;
+    margin: 40px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.extra{
+    text-align: center;
+    margin: 0 300px 150px 300px;
+}
+
+.flex-2{
+    display: flex;
+}
+
+.flexlet-2{
+    flex: 1;
+}
+
+.flex-3{
+    display: flex;
+}
+
+.flexlet-3{
+    flex: 1;
+
+}
+
+#goals{
+    flex: 1;
+    background-color: white;
+    border-radius: 15px;
+    margin: 60px 40px 40px 10px;
+    padding: 10px;
+}
+
+.left-page{
+    background: url('../images/left-arrow.svg') no-repeat 0;
+    background-size: 16px 16px;
+    padding-left: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+
+.left-page:hover {
+    text-decoration: underline;
+}
+
+.right-page{
+    background: url('../images/right-arrow.svg') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+.right-page:hover{
+    text-decoration: underline;
+}
+
+.small-cap{
+    margin: 0;
+    text-align: left
+}
+
+
+/* IDs */
+#blogs{
+    width: 80%; 
+}
+
+#bucket{
+    width: 40%;
+}
+
+#blonde-grizzly{
+    width: 80%;
+}
+
+#carousel{
+    margin-top: -15px;
+    width: 30px;
+}
+
+#carousel:hover{
+    border: solid purple 2px;
+    padding: 2px;
+}
+
+#competing-products{
+    width: 80%;
+}
+
+#coursera{
+    width: 40%;
+}
+
+#coworkers{
+    width: 40%;
+}
+
+#error-codes{
+    width: 80%;
+}
+
+#fillet{
+    width: 70%;
+}
+
+#google{
+    padding-top: 60px;
+}
+
+#hd-visuals{
+    width: 80%;
+}
+
+#logo{
+    flex: 1;
+    max-width: 80px;
+    margin-right: 40px;
+}
+
+#rec{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#salmon-blog{
+    width: 900px;
+}
+
+#skagvista{
+    width: 40%;
+}
+
+#title-tags{
+    width: 80%;
+}

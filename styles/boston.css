@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('fonts/abhayalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/abhayalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* element selectors */
+body{
+    font-family: 'abhaya_libreregular';
+    background-color: rgb(255, 16, 0);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    float: left;
+    margin-left: 10px;
+    margin-right: 800px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3{
+    padding: 15px 0 0 20px;
+}
+
+h1, h2, h3{
+    font-family: 'source_sans_prosemibold';
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;    
+    margin: -9px;
+    z-index: 3;
+    background: linear-gradient( rgba(255, 16, 0, 1), rgba(255, 255, 255, 0))
+}
+
+img{
+    margin-bottom: 20px;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption{
+    text-align: center;
+    padding: 0 50px;
+    line-height: 1.5;
+}
+
+figure{
+    margin-bottom: 100px;
+}
+
+main{
+    display: block;
+    margin: auto;
+}
+
+p, figcaption, ul{
+    font-weight: bold;
+    padding: 0 15%;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+
+
+
+/*class selectors */
+.about{
+    flex: 1;
+    margin: 40px 10px 40px 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.block{
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px;
+    padding-bottom: 10px;
+}
+
+.finished-product{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.goals{
+    border-radius: 10px;
+    flex: 1;
+    margin: 40px 40px 40px 10px;
+    background-color: #fff;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+#left{
+    padding-left: 100px;
+}
+
+.left-page{
+    background: url('../images/left-arrow.svg') no-repeat 0;
+    background-size: 16px 16px;
+    padding-left: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+
+.left-page:hover {
+    text-decoration: underline;
+}
+
+.logo{
+    width: 80px;
+    padding-top: 17px;
+    margin-right: 50px;
+}
+
+.portal-specs{
+    width: 40%;
+}
+
+.right-page{
+    background: url('../images/right-arrow.svg') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+    flex: 1;
+    text-decoration: none;
+}
+
+.right-page:hover{
+    text-decoration: underline;
+}
+
+.wireframe{
+    width: 50%;
+}
+
+.wireframe-caption{
+    margin: 0 115px;
+}
+
+
+/* ID selectors */
+#carousel{
+    margin-top: -15px;
+}
+
+#carousel:hover{
+    border: solid purple 2px;
+    padding: 2px;
+}
+
+#coworkers{
+    background-color: rgb(255, 16, 0);
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+#homepage-1{
+    z-index: 2;
+}
+
+#homepage-2{
+    margin-top: -267px;
+}
+
+#oa{
+    max-width: 1200px;
+}
+
+#rec{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
