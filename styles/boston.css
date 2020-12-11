@@ -168,6 +168,10 @@ p, figcaption, ul{
 
 
 /* ID selectors */
+#carrot{
+    text-decoration: none;
+}
+
 #carousel{
     margin-top: -15px;
 }
@@ -198,7 +202,6 @@ p, figcaption, ul{
 #rec{
     width: 50%;
 }
-
 
 
 
